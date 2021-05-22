@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Questionnaire-Sondage</title>
+
+    <link rel="shortcut icon" href="./media/checklist.png"> <!--icon de l'Onglet-->
+    <link rel="stylesheet" href="./style.css "> <!--relier fichier .css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"> <!--import de font-->
+
+</head>
+<body>
+    <header>
+        <h1> Sondage </h1>
+        <div id= 'line'></div>
+        <h2>Évalutation de l'interface usager</h2>
+        <div id ='discription'>
+            <h3>Ce sondage consiste à évaluer l'interface de ce <a style="text-decoration: none; color: rgb(0, 0, 0);" href="https://www.menzoudent.com/" target="_blank">site web</a>
+            je vous invite à visiter le site web et de prendre quelques instants pour répondre au sondage. Je vous remercie.</h3>
+        </div>
+        <div id="siteWebSS">
+            <a href="https://www.menzoudent.fr/" target="_blank"><img src="./media/siteWebSS.png" style="width: 710px;height: 450px; ;" title="insert title" alt="insert description here"></a>
+
+        </div>
+        
+    </header>
+    
+ 
+
+    <section id="sondage">
+        <h3>Questionnaire</h3>
+        <form>
+            <div id="q1">Trouvez-vous la structure et les contenus du site web clair et compréhensible?<br>
+                <input type="radio" id="oui1" name="drone1" value="oui"
+                       checked>
+                <label for="huey">Oui</label>
+                <input type="radio" id="non1" name="drone1" value="Non"
+                checked>
+               <label for="q1">Non</label>
+            </div>
+            <div id = "q2" >
+                Sinon, que voudriez-vous changer ou modifier dans le site web? <br id =comments>
+                <textarea rows="5" cols="30"/></textarea>
+            </div>
+            
+            <div id ="q3">Trouvez-vous le site web facile à naviguer?<br>
+                <input type="radio" id="oui2" name="drone2" value="oui"
+                       checked>
+                <label for="q2">Oui</label>
+                <input type="radio" id="non2" name="drone2" value="Non"
+                checked>
+         <label for="q3">Non</label>
+            </div>
+            
+            <div id ="q5">Environ combien de pages avez-vous parcourus au cours de cette visite?<br>
+                <select name="visites">
+                    <option value="1-3" selected="selected">1 à 3</option>
+                    <option value="3-5" selected="selected">4 à 6</option>
+                    <option value="6-5" selected="selected">6 à 8</option>
+                    <option value="toute" selected="selected">Toute les pages</option>
+                </select>
+
+            </div>
+            <div id="q5">Quelles sont les pages que vous avez aimé le plus?<br>
+                <input type="checkbox" name="Accuil" value="Acceuil"> Acceuil<br>
+                <input type="checkbox" name="service" value="services"> Nos services<br>
+                <input type="checkbox" name="galerie" value="galerie"> Galerie<br>
+                <input type="checkbox" name="prix" value="prix"> Prix<br>
+                <input type="checkbox" name="partenaire" value="partenaire"> Nos partenaires<br>
+                <input type="checkbox" name="contact" value="contact"> Contact<br>
+                <input type="checkbox" name="toute" value="toute"> Toute les pages<br>
+                <input type="checkbox" name="aucun" value="aucun"> Aucune<br>
+            </div>
+            <div id = "q6" >
+                Laissez-nous un commentaire<br id =comments>
+                <textarea rows="5" cols="30"/></textarea>
+            </div>
+
+            
+            <input type="submit" value= "SUBMIT" >
+                
+            
+    
+        </form>
+        
+    </section>
+    <footer>
+        <p>Menji © 2021 </p>
+    </footer>
+</body>
+</html>

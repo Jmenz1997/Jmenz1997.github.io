@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Josefin+Sans:wght@200&family=Rambla&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    color:  #ffffff !important;
+    background-image: linear-gradient( 110.5deg,  rgb(28, 63, 90) 14.9%, rgba(149,245,211,1) 77.9% );
+    
+    margin:0 auto;
+    justify-content: space-between;
+    font-family: 'Rambla', sans-serif;
+}
+header{
+    text-align:center;
+    height: 80vh;
+    
+}
+
+h2{
+    font-family: 'Josefine', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 1px #ffffff;
+
+}
+h1{
+    padding: 90px 0 10px 0;
+    font-family: 'Dosis', sans-serif ;
+    font-size: 4.3em;
+    text-transform: uppercase;
+    
+}
+#sondage {
+    
+    margin: 500px 5% 300px 5%;
+    padding: 0px 10px 60px 40px;
+    /*background-image: linear-gradient( 88.7deg,  rgba(144,254,229,1) -17.1%, rgba(91,193,239,1) 40.4%, rgba(119,94,173,1) 115.3% );*/
+    background-image: linear-gradient( 109.6deg,  rgba(64,225,208,1) 11.2%, rgba(5,85,84,1) 91.1% );
+    box-shadow: -3px -2px 24px 3px rgba(255,255,255,0.55);
+  -webkit-box-shadow: -3px -2px 24px 3px rgba(255,255,255,0.55);
+  -moz-box-shadow: -3px -2px 24px 3px rgba(255,255,255,0.55);
+  }
+#line{
+    height: 1px;
+    background-color: #ffffff;
+    width: 250px;
+    margin: 0 auto;
+    margin-top: -50px;
+
+}
+h2{
+    padding: 5px 0 10px 0 ;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+h3{
+    padding: 10px 0 10px 0;
+    font-family: 'Dosis', sans-serif ;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#siteWebSS{
+    margin-top: 5%;
+    
+}
+#sondage h3{
+    margin-top: 430px;
+    
+    
+}
+#q1,#q2,#q3,#q4,#q5,#q6{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    
+    
+    
+}
+input[type=submit]{
+  background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%);
+  margin: 50px 0px 20px 0;
+  padding: 15px 5% 15px 5%;
+  text-align: center;
+  margin-left: 300px;
+  transition: 0.5s;
+  border: none;
+  background-size: 200% auto;
+  color: white;   
+  border-radius: 10px;
+  display: block;
+}
+footer{
+    background-size: cover;
+    text-align: center;
+    padding: 160px 50px 5 50px;
+    color: black;
+}
+
+
+
+
