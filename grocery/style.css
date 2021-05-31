@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Josefin+Sans:wght@200&family=Rambla&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&display=swap');
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+    color:  #ffffff !important;
+    background-color: #FEE140;
+background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+
+
+    
+    font-family: 'Rambla', sans-serif;
+}
+#titre{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 100px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+header{
+    text-align:center;
+    height: 210vh; 
+}
+h1{
+    padding: 10px 0 10px 0;
+    font-family:'Dosis', sans-serif ;
+    font-size: 4.3em;
+    text-transform: uppercase;   
+}
+h2{
+    font-family: 'Josefine', sans-serif;
+    letter-spacing: 0.2em;
+    padding-top: 50px;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 1px #ffffff;
+
+}
+.navbar{
+    background-color: #ffffff;
+    opacity: 0.9;
+    height: 42px;
+    transition: 0.7s;
+
+}
+
+
+.navbar-nav{
+    width: 80%  !important;
+    margin: 0 auto;
+    justify-content:center;
+
+}
+header .button{
+    background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%);
+    margin: 50px 35% 20px 35%;
+    padding: 15px 5% 15px 5%;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;   
+    
+    
+    border-radius: 10px;
+    display: block;
+      
+  
+}
+#Client{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    margin-top: 90px;
+
+}
+#Client h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size:xx-large;
+    margin-top: 3px;
+    padding-top: 30px;
+}
+
+  
+header .button:hover  {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+#displayProduct{
+    text-align: center;
+    font-size: x-large;
+    border: 5px dotted rgba(28,110,164,0.41);
+border-radius: 10px 10px 10px 10px;
+
+
+}
+#displayCart{
+    text-align: center;
+    font-size: x-large;
+    border: 5px dotted rgba(28,110,164,0.41);
+    border-radius: 10px 10px 10px 10px;
+
+
+}
+#Products{
+    
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    margin-top: 90px;  
+}
+#Cart{
+    
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    margin-top: 90px;  
+}
+#Cart h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size:xx-large;
+    padding-bottom: 50px;
+}
+
+#Products h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size:xx-large;
+    padding-bottom: 50px;
+}
+#Products h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size:xx-large;
+    padding-bottom: 50px;
+}
+
+.tablinks {background-image: linear-gradient(to right, #ECE9E6 0%, #FFFFFF  51%, #ECE9E6  100%)}
+.tablinks {
+   margin: 10px;
+   padding: 5px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.s;
+   background-size: 200% auto;
+   color: rgb(83, 77, 77);            
+   border-radius: 10px;
+   
+ }
+
+ .tablinks:hover {
+   color: #fff;
+   text-decoration: none;
+ }
+
+ 
+ .suivant {background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%)}
+ .suivant {
+    margin: 10px;
+    padding: 5px 45px;
+    margin-top: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    
+  }
+
+  .suivant:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  footer{
+      text-align: center;
+  }
+ 
+  
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+

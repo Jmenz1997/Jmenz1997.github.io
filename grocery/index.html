@@ -1,0 +1,81 @@
+
+<!--This style sheet is taken from  https://www.w3schools.com/howto/howto_js_tabs.asp
+And majority of implementation of js and html files was obtained from professor caroline barrière-->
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Épicerie en ligne</title>
+    
+    <link rel="stylesheet" href="./style.css "> <!--relier fichier .css-->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <header>
+
+<!-- Tab links, each one with an onclick event associated with it -->
+        <div class="tab">
+        
+        <button class="tablinks" onclick="openInfo(event, 'Client')">Acceuil</button>
+        <button class="tablinks" onclick="openInfo(event, 'Products')">Produits</button>
+        <button class="tablinks" onclick="openInfo(event, 'Cart')">Panier</button>
+        </div>
+        
+
+<!-- Tab content -->
+        <div id="Client" class="tabcontent" >
+        <h1>Bienvenu à l'épicerie</h1>
+        <h1 id="titre">Joliette</h1>
+        <h2>Information Client</h2>
+        <h3>Dite nous plus sur vous.</h3><br>
+	        <h3>Étes vous:</h3>
+	        <select id="dietSelect" name="dietSelect" onchange="populateListProductChoices(this.id, 'displayProduct')">
+	        <option value=""></option>
+	        <option value="noix">Allergique au noix</option>
+            <option value="LactoseFree">Intolérant au lactose</option>
+
+            <option value="Vegetarian">Organique</option>
+            <option value="None">aucune restriction</option>
+            </select>
+            <div id="btn">
+                <button class="suivant" onclick="openInfo(event, 'Products')">SUIVANT</button>
+            </div>
+            
+            
+        </div>
+
+        <div id="Products" class="tabcontent">
+            <h2>Les produit préselectionner</h2>
+            <h3>Nous avons préselectionner nos produits en fonctions de votre restriction.</h3>
+                <h4>Choisisez les produits à acheter:</h4>
+                <p>(les produits sont d'ordres de prix descendant) </p>
+                
+                <div id="displayProduct"></div>
+                <button id="addCart" type="button" class="block" onclick="selectedItems()">
+                Add selected items to cart.
+            </button>
+            <div id="btn">
+                <button class="suivant" onclick="openInfo(event, 'Cart')">SUIVANT</button>
+            </div>
+        </div>
+  
+        <div id="Cart" class="tabcontent">
+            <h3>Panier</h3>
+            <h4>Voici votre panier:</h4>
+            <div id="displayCart"></div>
+        </div>
+    </header>
+    <footer>
+    <p>Menji © 2021 </p>
+</footer>
+
+    <script src="./assets/js/produit.js"></script>
+    <script src="./assets/js/main.js"></script>
+    
+</body>
+</html>
