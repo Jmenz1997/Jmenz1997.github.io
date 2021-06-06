@@ -1,0 +1,115 @@
+
+<!--This style sheet is taken from  https://www.w3schools.com/howto/howto_js_tabs.asp
+And majority of implementation of js and html files was obtained from professor caroline barrière-->
+<!--icons from <div>Icons made by <a href="https://www.flaticon.com/authors/nikita-golubev" title="Nikita Golubev">Nikita Golubev</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+<div>Icons made by <a href="https://www.flaticon.com/authors/roundicons" title="Roundicons">Roundicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Épicerie en ligne</title>
+    
+    <link rel="stylesheet" href="./style.css "> <!--relier fichier .css-->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+
+<body>
+    
+    <div class="parallax">
+        <h1 id="titreB"> Bienvenu à l'épicerie</h1>
+        <h1 id="joliette">Joliette</h1>
+    </div>-
+   
+    
+    <header>
+        
+        
+        
+
+<!-- Tab links, each one with an onclick event associated with it -->
+        <div class="tab">
+        
+        <button class="tablinks" onclick="openInfo(event, 'Client')">Acceuil</button>
+        <button class="tablinks" onclick="openInfo(event, 'Products')">Produits</button>
+        <button class="tablinks" onclick="openInfo(event, 'Cart')">Panier</button>
+        </div>
+        
+
+<!-- Tab content -->
+
+        <div id="Client" class="tabcontent" >
+        <h2>Information Client</h2>
+
+	        <h3>Choisisez les préférences de vos produits: </h3>
+                <div id="dietSelect" name="dietSelect" onchange="populateListProductChoices(this.id, 'displayProduct')">
+                    <div class="checkbox">
+                        <input type="checkbox" class="lactoseFreeCB" id="lactoseF" value="pasDeLactose" name="intolerance">
+                        <label for="IntolerenceLactose"><p>Intolerent au lactose <img src="media/lactose-fre.png"> </p> </label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" class="nonutsCB" id="nutsF" value="pasDeNoix"name="intolerance">
+                        <label for="allergyAuNoix"><p>Allergique au noix <img src="media/no_nuts-48_45411.ico"></p> </label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" class="organiqueCB" id="organique" value="organic" name="intolerance">
+                        <label for="produitOrganique"><p>Produits <img src="media/bio.png"></p> </label>
+                    </div>
+                    <div class="checkbox">
+                        <input type="checkbox" class="aucuneCB" id="none" value="none" name="intolerance">
+                        <label for="aucun">Aucune </label>
+                    </div>
+
+                    <br>
+                <button class="confirmer" onclick="verify()">Confirmer</button>
+                    
+                
+                
+
+
+                </div>
+                <br>
+                <button class="tablinks" onclick="openInfo(event, 'Products')" >Suivant</button>
+
+            
+	        
+            
+            
+            
+           
+            
+            
+        </div>
+
+        <div id="Products" class="tabcontent">
+            <h2>Les produits préselectionner</h2>
+            <h3>Nous avons présélectionné nos produits en fonction de votre restriction.</h3>
+                <h4>Choisisez les produits à acheter:</h4>
+                
+                <div id="displayProduct"></div>
+                <button class="tabchange"  onclick="selectedItems()">
+                Ajouter
+            </button>
+            <div id="btn">
+                <button class="tablinks" onclick="openInfo(event, 'Cart')">Panier</button>
+            </div>
+        </div>
+  
+        <div id="Cart" class="tabcontent">
+            <h3>Panier</h3>
+            <h4>Voici votre panier:</h4>
+            <div id="displayCart"></div>
+        </div>
+    </header>
+    <footer>
+        <p>Menji © 2021 </p>
+    </footer>
+
+    <script src="./assets/js/produit.js"></script>
+    <script src="./assets/js/main.js"></script>
+    
+</body>
+</html>

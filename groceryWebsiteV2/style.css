@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Josefin+Sans:wght@200&family=Rambla&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@300&display=swap');
+
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+    color:  #1f1e1e !important;
+    font-size:larger;
+    /*background-color: #fcfcfc;*/
+    background-color: #ffffff;
+
+    font-family: 'Rambla', sans-serif;
+}
+input {
+    width: 20px;
+
+    position: relative;
+    left: 200px;
+
+    vertical-align: middle;
+}
+
+label {  
+    width: 200px;
+
+    position: relative;
+    left: -20px;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.parallax{
+    /*img tooken from https://unsplash.com/photos/sVrEI2myiv4*/
+    background-image: url("media/the-creative-exchange-sVrEI2myiv4-unsplash.jpg");
+    min-height: 400px;
+    color: #ffffff;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#titre{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 100px;
+    padding-top: 10px;
+    
+    margin-top: 20px;
+}
+#displayCart p{
+    color: #4d4b4b;
+}
+#text{
+    color: #DD2476;
+}
+#titreB{
+    padding: 50px 0 0px 30px;
+    font-family:'Dosis', sans-serif ;
+    font-size: 3.3em;
+    color: #DD2476;
+    text-transform: uppercase; 
+}
+#joliette{
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 100px;
+    padding-left: 180px;
+    color: #DD2476;
+    padding-top: 70px;
+    margin-top: 20px;
+    
+}
+header{
+    text-align:center;
+    height: 210vh; 
+}
+h1{
+    padding: 10px 0 10px 0;
+    font-family:'Dosis', sans-serif ;
+    font-size: 4.3em;
+    text-transform: uppercase;   
+}
+h2{
+    font-family: 'Josefine', sans-serif;
+    letter-spacing: 0.2em;
+    padding-top: 50px;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 1px #ffffff;
+
+}
+
+header .button{
+    background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%);
+    margin: 50px 35% 20px 35%;
+    padding: 15px 5% 15px 5%;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;   
+    
+    
+    border-radius: 10px;
+    display: block;
+      
+  
+}
+#Client{
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    margin-top: 90px;
+
+}
+#Client h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size:xx-large;
+    margin-top: 3px;
+    padding-top: 30px;
+}
+
+  
+header .button:hover  {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+#displayProduct{
+    text-align: center;
+    font-size: x-large;
+    border-radius: 10px 50px 10px 50px;
+    background-color: #fbe566
+
+
+}
+#displayCart{
+    text-align: center;
+    font-size: x-large;
+    border-radius: 10px 50px 10px 50px;
+    background-color: #fbe566
+
+
+}
+#Products{
+    
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    margin-top: 90px;  
+}
+#Cart{
+    
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    margin-top: 90px;  
+}
+#Cart h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size:xx-large;
+    padding-bottom: 50px;
+}
+
+#Products h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size:xx-large;
+    padding-bottom: 50px;
+}
+#Products h3 {
+    font-family: 'Dosis', sans-serif;
+    font-size:xx-large;
+    padding-bottom: 50px;
+}
+.checkbox img{
+    height: 24px;
+    width: 25px;
+}
+
+.tablinks {background-color: #fbe566}
+.tablinks {
+   margin: 10px;
+   padding: 5px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.s;
+   background-size: 200% auto;
+   color: rgb(83, 77, 77);            
+   border-radius: 10px;
+   
+ }
+
+ .tablinks:hover {
+   color: #fff;
+   text-decoration: none;
+ }
+ .tabchange {background-color: #fbe566}
+.tabchange {
+   margin: 10px;
+   padding: 5px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.s;
+   background-size: 200% auto;
+   color: rgb(83, 77, 77);            
+   border-radius: 10px;
+   
+ }
+
+ .tabchange:hover {
+   color: #fff;
+   text-decoration: none;
+ }
+ .confirmer {background-color: #f3ecc6}
+.confirmer {
+   margin: 10px;
+   padding: 5px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.s;
+   background-size: 200% auto;
+   color: rgb(41, 36, 36);            
+   border-radius: 10px;
+   
+ }
+
+ .confirmer:hover {
+   color: #8b8b8b;
+   text-decoration: none;
+ }
+
+ 
+ 
+  footer{
+    text-align: center;
+  }
+  #dietSelect{
+    border-radius: 10px 50px 10px 50px;
+    background-color: #fbe566;
+}
+ 
+  
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
