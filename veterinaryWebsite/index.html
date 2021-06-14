@@ -1,0 +1,182 @@
+<!doctype html>
+<!--Ce code est fournis par Ryan Matte modifier par Menzou Jughurta pour des buts educatif -->
+<!-- Here is a link to the code the documents this code is based on
+https://getbootstrap.com/docs/5.0/getting-started/introduction/
+This will help you get started with your code!
+
+Icons made by "https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a> from "https://www.flaticon.com/" 
+-->
+<html lang="fr">
+    
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="styles/styles.css" rel="stylesheet" type="text/css">
+    <title>Module 4 Lab</title>
+</head>
+<body>
+<!--
+I store all of the page information in a container,
+Many websites will use what is called CSS grid layouts, where you will have a header, body, footer and both sides used for ads or other information
+-->
+<div class = "container-lg">
+
+    <!--
+    Most websites now feature what is called a NavBar.
+    The example I give is quite simple with a logo and some text, but you can use it for many navigational patterns
+    https://getbootstrap.com/docs/5.0/components/navbar/
+    -->
+
+    <nav class="navbar  text-white p-3 my-3 title ">
+        <h1 ><img src="img/vet.png" width="100" height="100"> Welcome to pet life care Clinic</h1>
+    </nav>
+
+    <div class=" p-3 my-3  ">
+        <h1 class=""> À propos de nous: </h1>
+        <p class="p-4 my-3" style="font-size: 20px">Nous somme une clinique vétérinaire situer à Montréal. Nous offrons à vos animaux les meilleurs soins qu'il peuvent avoir, nous utilisons la pointe de la technologie afin d'offrir des soins de qualité.</p>
+        
+    </div>
+    <!--
+    Tables are one of many ways to organize information easily.
+    It is a good way to list of prices, or services in a business website
+    https://getbootstrap.com/docs/5.0/content/tables/
+    -->
+    <div class=" p-3 my-3  ">
+        <h1><img src="img/stethoscope.png" width="100" height="100"> Nos services</h1>
+        
+      </div>
+        
+      <div class="container ">
+        <div class="row text-center">
+            <div class="col-sm-5 border">
+                <h3>Dentisterie</h3>        
+                <p>we are fully equipped with the latest in dental equipment. On offre un nettoyage et extraction dentaire.</p>
+                <p><img src="img/dollar.png" width="20" height="20"> <strong>Prix:</strong> à partir de 20 $ à 60 $</p>
+            </div>   
+          <div class="col-sm-5 border">
+            <h3>Consultation</h3>
+            <p>Nous offrons des consultations afin de diagnostiquer la santé de votre animal.</p>
+            <p><img src="img/dollar.png" width="20" height="20"> <strong>Prix:</strong> 40 $</p>
+          </div>
+          <div class="col-sm-5 border">
+            <h3>Opération chirurgical</h3>        
+            <p>Nous fournissons des services chirurgicaux de la part de chirurgiens expérimentés, allant des opérations complexes d'ablation de la vessie, orthopédiques et tumorales.</p>
+            <p><img src="img/dollar.png" width="20" height="20"> <strong>Prix:</strong> à partir de 100 $ à 400 $</p>
+          </div>
+          <div class="col-sm-5 border ">
+            <h3>Soins de routine</h3>
+            <p>Pet life care offre plusieurs traitements médical pour des problème renal, respiratoire, cardiaque, peau, oreille et yeux. </p>
+            <p><img src="img/dollar.png" width="20" height="20"> <strong>Prix:</strong> à partir de 50 $ à 150 $</p>
+          </div>
+          
+          <div class="col-sm-5 border">
+            <h3>Vaccinations</h3>        
+            <p>Chez pet life care nous offrons un programs de vacination consistent.</p>
+            <p><img src="img/dollar.png" width="20" height="20"> <strong>Prix:</strong> à partir de 50 $ à 100 $</p>
+          </div>
+        </div>
+      </div>
+      <div class=" p-3 my-3  ">
+        <h1><img src="img/veterinarian.png" width="100" height="100">  Notre équipe </h1>
+        
+      </div>
+        
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4 border">
+            <h3><img src="img/dr2.jpg" width="210" height="210"></h3>
+            <h3>Dr.Catherine lachemblef</h3>
+            <p>Dr.Catherine avec une expérience de 30 ans est chef du cabinet et des médecins.</p>
+            
+          </div>
+          <div class="col-sm-4 border">
+            <h3><img src="img/dr1.jpg" width="210" height="210"></h3>
+            <h3>Dr.Alberta sorlando</h3>
+            <p>Obtenu sont diplômes en 2010 de l'université d'Ottawa, avec une expérience de travail de 13 ans. Ça tendresse envers les animaux les rends plus calme et moins peureux</p>
+          </div>
+          <div class="col-sm-4 border">
+            <h3><img src="img/dr3.jpg" width="210" height="210"></h3>
+            <h3>Dr.Dave linette</h3>
+            <p>Le Dr.Dave sont amour envers les animaux est immense, il offre des soins avec attention et sagesse.</p>
+          </div>
+        </div>
+      </div>
+      <!--form trouver sur https://getbootstrap.com/docs/4.0/components/forms/-->
+      <form>
+        <h1><img src="img/calendar.png" width="100" height="100"> Prendre rendez vous</h1>
+        <div class="form-group">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Prénom">
+            </div>
+
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Nom">
+            </div>
+
+            <div class="col">
+                <input type="text" class="form-control" placeholder="Nom de l'animal">
+              </div>
+        
+
+          <div class="col">
+             <input type="text" class="form-control" placeholder="Le rendez-vous est pour quel genre d'animal ?">
+          </div>
+      </div>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Adresse mail</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nom@exemple.com">
+        </div>
+        
+
+
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Service voulu</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Consultation</option>
+            <option>Dentisterie</option>
+            <option>Opération chirurgical</option>
+            <option>Vaccination</option>
+            <option>Soins de routine</option>
+          </select>
+        </div>
+        <!--Trouver sur le site https://v4-alpha.getbootstrap.com/components/forms/-->
+        <div class="form-group">
+            <label for="example-datetime-local-input" class="col-2 col-form-label">Date et heure</label>
+            <div class="col-10">
+              <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="example-datetime-local-input">
+            </div>
+        </div>
+        <!--
+    Buttons can be used for submitting forms, triggering events among many other things.
+    https://getbootstrap.com/docs/5.0/components/buttons/
+    -->
+        <div id="soumission">
+            <button type="submit" class="btn btn-warning">Soumettre</button>
+        </div>
+        <div class=" p-3 my-3  border ">
+            <h1><img src="img/contact.png" width="50" height="50"> Information suplémentaire</h1>
+            <p class="p-2 my-3 " style="font-size: 15px"><strong>Adresse:</strong> 43 Av Montréal QC H1T 2R9 (Montréal ,Quebec) </p>
+            <p class="p-2 my-3 " style="font-size: 15px"><strong>Tél: </strong> +514 523 422 322 </p>
+            <p class="p-2 my-3 " style="font-size: 15px"><strong>Adresse mail: </strong> info@petlifecare.ca</p>
+        </div>
+
+    
+    
+    
+ 
+    
+    
+
+    
+
+    
+
+</div>
+<!-- here we input our javascript helper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
