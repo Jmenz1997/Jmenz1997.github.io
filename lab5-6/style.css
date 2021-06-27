@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+#service{
+    margin-top:90px ;
+}
+td{
+    font-size: 25px;
+}
+p{
+    font-size: 17px;
+}
+.btn{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h1{
+    color: rgb(53, 148, 135);
+    font-family: 'Bree Serif', serif;
+}
+.title h1{
+    color: rgb(255, 255, 255);
+}
+.title {
+    
+    font-family: 'Bree Serif', serif;
+}#service .container{
+    padding-left: 150px;
+    margin-top: 60px;
+    
+    
+}#prix{
+    padding-bottom: 20%;
+    color: black;
+}#prix2{
+    padding-bottom:20%;
+    color: black;
+}
+#prix3{
+    color: black;
+}
+.dent{
+    background-color: #167d9c;
+    color: rgb(255, 255, 255);
+}.dent h3{
+    padding-top: 10px;
+}
+.consu{
+    background-color: #3b6a79;
+    color: white;
+}.consu h3{
+    padding-top: 10px;
+}.op{
+    background-color: #3b6a79;
+    color: white;
+}.op h3{
+    padding-top: 10px;
+}.op p{
+    padding-top:20px;
+
+}.vac{
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    color: white;
+}
+.sr{
+    background-color: #167d9c;
+
+    color: white;
+}.sr h3{
+    padding-top: 10px;
+}.sr p{
+    padding-top: 33px;
+}
+#service .row{
+    margin-top: 4px;
+}#service .row h3{
+    color: white;
+}
+.row h3{
+    color: #01526b;
+}
+form{
+    padding: center;
+}.col{
+    padding-top: 15px;
+}
+.form-group{
+    padding-top: 10px;
+    padding-left: 30px;
+    
+}
+#soumission{
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.navbar{
+    background-color: #cfc9c9;
+    opacity: 0.9;
+    height: 42px;
+    transition: 0.7s;
+
+}body{
+    text-align: center;
+}
+
+.navbar-nav{
+    width: 80%  !important;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+
+header{
+    text-align:center;
+    height: 100vh;  
+    background-image: url("./img/dog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+.aboutus{
+    padding-right: 60px;
+}
+#equipe{
+    
+    margin-top: 100px;
+}
+.fit-image{
+    width: 100%;
+    object-fit: cover;
+    height: 250px; /* only if you want fixed height */
+}
+
+#rdv form{
+    padding-top: 80px;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.padding {
+    padding: 5rem !important;
+    margin-left: 300px
+}
+.carte{
+    margin-top: 25px;
+    
+    margin-left: 28px;
+    border-radius: 1mm;
+}
+#debit{
+    margin-bottom: 10px;
+    margin-right: 10px;
+}.datetime{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 28px;
+    border-radius: 1mm;
+    margin-bottom: 40px;
+}#dateInput{
+    margin-bottom:10px ;
+    margin-right: 20px ;
+}#time{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}.info{
+    margin-bottom: 40px;
+}
+
+
+.form-control:focus {
+    color: #5c6873;
+    background-color: #fff;
+    border-color: #c8ced3 !important;
+    outline: 0;
+    box-shadow: 0 0 0 #F44336
+}
+.widget .border{
+    margin-left: 30px;
+    margin-top: 15px;
+    border-radius: 1mm;
+    border-color: rgb(56, 56, 56);
+}.vetSelect{
+    margin-bottom: 40px;
+    
+}.servSelect{
+    margin-bottom: 40px;
+}
